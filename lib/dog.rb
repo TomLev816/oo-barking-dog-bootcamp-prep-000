@@ -2,6 +2,11 @@
 class Dog
   def initialize(name)
     @name = name
-    @bark = puts "woof!"
+  end
+  def name
+    @name
+  end
+  def bark
+    puts "woof!"
   end
 end
